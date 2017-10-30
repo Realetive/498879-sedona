@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Yana Shibanova](https://up.htmlacademy.ru/htmlcss/19/user/498879).
-* Наставник: `Неизвестно`.
+* Наставник: [Роман Ганин](https://htmlacademy.ru/profile/id195773).
 
 ---
 
