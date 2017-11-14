@@ -7,7 +7,7 @@
   <body>
     <header>
       <div class="header-logo">
-        <a><img src="img/logo.svg" alt="Логотип City of Sedona"></a>
+        <a><img src="img/logo.png" width="138" height="70" alt="Логотип City of Sedona"></a>
       </div>
       <nav>
         <ul>
@@ -21,7 +21,8 @@
 
     <main>
       <article>
-        <h1>Sedona</h1> <!-- это ведь будет спозиционированный текст на фоне гор, да? -->
+        <h1 class="visually-hidden">Седона</h1>
+        <!-- бэкграунд с горами -->
       </article>
       <section>
         <h2>Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
@@ -31,6 +32,7 @@
         <h3>Настоящий городок</h3>
         <p>-№1-</p>
         <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
+        <p><img src="img/feature-1.jpg" width="800" height="256" alt="Фото города"></p>
         <ul>
           <li>
             <h4>Жилье</h4>
@@ -50,6 +52,7 @@
         <h3>Там есть мост дьявола</h3>
         <p>-№2-</p>
         <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+        <p><img src="img/feature-2.jpg" width="800" height="256" alt="Мост дьявола"></p>
       </section>
       <section>
         <h3>Небольшая площадь</h3>
@@ -65,15 +68,29 @@
         <p>Большинство едет в Гранд Каньон и толпится там</p>
       </section>
       <div>
-        <h2 class="visually-hidden">Поиск гостиницы в Седоне</h2>
         <p><b>Заинтересовались?</b></p>
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <!-- форма с поиском и картой -->
+        <a class="search" href="form.html">Поиск гостиницы в Седоне</a>
+        <p><img src="img/map.jpg" width="1200" height="593" alt="Расположение города на карте штата"></p>
       </div>
+      <form action="#" method="post">
+        <label for="check-in">Дата заезда:</label>
+        <input type="text" id="check-in" name="check-in-date" placeholder="24 апреля 2017" required>
+        <br>
+        <label for="check-out">Дата выезда:</label>
+        <input type="text" id="check-out" name="check-out-date" placeholder="4 июля 2017" required>
+        <br>
+        <label for="adult">Взрослые:</label>
+        <input type="text" id="adult" name="adult" placeholder="2">
+        <label for="children">Дети:</label>
+        <input type="text" id="children" name="children" placeholder="0">
+        <br>
+        <button>Найти</button>
+      </form>
     </main>
 
     <footer>
-      <b>#VisitSedona</b>
+      <div>#VisitSedona</div>
       <div class="footer-social">
         <ul>
           <li><a class="social-button" href="#">Twitter</a></li>
@@ -82,8 +99,8 @@
         </ul>
       </div>
       <div class="footer-copyright">
-        <b>website by</b>
-        <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
+        website by
+        <a href="https://htmlacademy.ru/intensive/htmlcss"> HTML Academy</a>
       </div>
     </footer>
   </body>
