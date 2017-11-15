@@ -22,18 +22,36 @@
     <main>
       <section class="filters">
         <h1 class="visually-hidden">Фильтр гостиниц</h1>
-        <form action="#" method="post">
+        <form action="https://echo.htmlacademy.ru" method="post">
           <fieldset>
             <legend>Инфраструктура:</legend>
-            <p><label><input type="checkbox" name="pool" checked>Бассейн</label></p>
-            <p><label><input type="checkbox" name="parking">Парковка</label></p>
-            <p><label><input type="checkbox" name="wi-fi">WI-FI</label></p>
+            <p>
+              <input type="checkbox" name="pool" id="pool" checked>
+              <label for="pool">Бассейн</label>
+            </p>
+            <p>
+              <input type="checkbox" name="parking" id="parking">
+              <label for="parking">Парковка</label>
+            </p>
+            <p>
+              <input type="checkbox" name="wi-fi" id="wi-fi">
+              <label for="wi-fi">WI-FI</label>
+            </p>
           </fieldset>
           <fieldset>
             <legend>Тип жилья:</legend>
-            <p><label><input type="checkbox" name="hotel" checked>Гостиница</label></p>
-            <p><label><input type="checkbox" name="motel" checked>Мотель</label></p>
-            <p><label><input type="checkbox" name="apartment" checked>Апартаменты</label></p>
+            <p>
+              <input type="checkbox" name="hotel" id="hotel" checked>
+              <label for="hotel">Гостиница</label>
+            </p>
+            <p>
+              <input type="checkbox" name="motel" id="motel" checked>
+              <label for="motel">Мотель</label>
+            </p>
+            <p>
+              <input type="checkbox" name="apartment" id="apartment" checked>
+              <label for="apartment">Апартаменты</label>
+            </p>
           </fieldset>
           <div class="hotels-price">
             <p><label for="price">Стоимость в сутки (р):</label></p>
@@ -61,8 +79,16 @@
             <h3 class="hotels-name"><a href="#">Amara Resort & SPA</a></h3>
             <span class="hotels-type">Гостиница</span>
             <span class="hotels-price">от 4000 р.</span>
-            <p class="hotels-rating">Рейтинг: 8,5 ★★★★</p>
-            <p><img src="img/hotel-1.jpg" width="135" height="90" alt=""></p>
+            <div class="hotels_rating">
+              <div class="hotels_stars">
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+              </div>
+              <span class="hotels_rating">Рейтинг: 8,5</span>
+            </div>
+            <p><img src="img/hotel-1.jpg" width="135" height="90" alt="Фотография Amara Resort & SPA"></p>
             <a class="button" href="#">Подробнее</a>
             <a class="button" href="#">Забронировать</a>
           </li>
@@ -70,8 +96,14 @@
             <h3 class="hotels-name"><a href="#">Desert Quail Inn</a></h3>
             <span class="hotels-type">Мотель</span>
             <span class="hotels-price">от 3000 р.</span>
-            <p class="hotels-rating">Рейтинг: 8,9 ★★★</p>
-            <p><img src="img/hotel-2.jpg" width="135" height="90" alt=""></p>
+            <div class="hotels_stars">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <span class="hotels_rating">Рейтинг: 8,9</span>
+          </div>
+            <p><img src="img/hotel-2.jpg" width="135" height="90" alt="Фотография Desert Quail Inn"></p>
             <a class="button" href="#">Подробнее</a>
             <a class="button" href="#">Забронировать</a>
           </li>
@@ -79,8 +111,12 @@
             <h3 class="hotels-name"><a href="#">Villas Poco Diablo</a></h3>
             <span class="hotels-type">Апартаменты</span>
             <span class="hotels-price">от 2000 р.</span>
-            <p class="hotels-rating">Рейтинг: 9,2 ★★</p>
-            <p><img src="img/hotel-3.jpg" width="135" height="90" alt=""></p>
+            <div class="hotels_stars">
+              <span class="star">★</span>
+              <span class="star">★</span>
+            <span class="hotels_rating">Рейтинг: 9,2</span>
+          </div>
+            <p><img src="img/hotel-3.jpg" width="135" height="90" alt="Фотография Villas Poco Diablo"></p>
             <a class="button" href="#">Подробнее</a>
             <a class="button" href="#">Забронировать</a>
           </li>
