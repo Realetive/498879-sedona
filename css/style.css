@@ -187,3 +187,150 @@ a {
 .footer-social {
   list-style: none;
 }
+
+/*~~~~~Страница выбора гостиниц~~~*/
+
+.visually-hidden {
+  display: none;
+}
+
+.inner-page .nav-current {
+  color: #766357;
+}
+
+.filters {
+  width: 1200px;
+  height: 562px;
+
+  color: #ffffff;
+  line-height: 21px;
+
+  background-color: #acc9dd;
+  background-image: url("../img/filter-bg.jpg");
+  background-repeat: no-repeat;
+}
+
+.filters fieldset {
+  border: none;
+}
+
+.filters legend {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.results-sum {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.results-sort {
+  font-size: 12px;
+  list-style: none;
+}
+
+.results-sort a {
+  color: #000000;
+  opacity: 0.7; /*в стайлгайде прозрачность выставлена на 30%, но с opacity 0.3 текст практически не виден. что я делаю не так? ._. */
+  border-bottom: 1px dotted #81b3d2;
+}
+
+.results-sort a:hover,
+.results-sort a:focus {
+  color: #81b3d2;
+  border-bottom: 1px dotted #81b3d2;
+}
+
+.results-sort a:active {
+  color: #000000;
+  border: none;
+  opacity: 1;
+}
+.sort-current {
+  color: #81b3d2;
+  border: none;
+}
+
+.arrows a{
+  color: #000000;
+  opacity: 0.3;
+}
+
+.arrows a:hover,
+.arrows a:focus {
+  opacity: 1;
+}
+
+.arrows a:active,
+.arrow-down-current {
+  color: #81b3d2;
+}
+
+.hotels {
+  list-style: none;
+}
+
+.hotels-name a {
+  color: #000000;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.hotels-name a:hover,
+.hotels-name a:focus {
+  color: #81b3d2;
+}
+
+.hotels-name a:active {
+  color: #000000;
+  opacity: 0.3;
+}
+
+.hotels-stars {
+  font-size: 26px;
+  color: #81b3d2;
+}
+
+.hotels-rating {
+  background-color: #f2f2f2;
+}
+
+.button-about {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 26px;
+  color: #ffffff;
+
+  background-color: #81b3d2;
+}
+
+.button-about:hover,
+.button-about:focus {
+  background-color: #669ec0;
+}
+
+.button-about:active {
+  color: #88b6d1;
+
+  background-color: #5496bd;
+}
+
+.button-booking {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 26px;
+  color: #ffffff;
+
+  background-color: #766357;
+}
+
+.button-booking:hover,
+.button-booking:focus {
+  background-color: #604e43;
+}
+
+.button-booking:active {
+  color: #857871;
+
+  background-color: #503e33;
+}

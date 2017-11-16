@@ -3,14 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="inner-page">
     <header>
       <div class="header-logo">
         <a href="index.html"><img src="img/logo.png" width="138" height="70" alt="Логотип City of Sedona"></a>
       </div>
-      <nav>
-        <ul>
+      <nav class="main-navigation">
+        <ul class="site-navigation">
           <li><a href="#">Информация</a></li>
           <li><a href="#">Фото и видео</a></li>
           <li><a href="#">Карта штата</a></li>
@@ -63,78 +66,75 @@
         </form>
       </section>
       <div class="results">
-        <span>Найдено: 3</span>
-        Сортировка:
-        <ul>
-          <li><a href="#">По цене</a></li>
+        <span class="results-sum">Найдено: 3</span>
+        <ul class="results-sort">
+          <li>Сортировка:</li>
+          <li><a href="#" class="sort-current">По цене</a></li>
           <li><a href="#">По типу</a></li>
           <li><a href="#">По рейтингу</a></li>
         </ul>
-        <a class="arrow-up" href="#">▲</a>
-        <a class="arrow-down" href="#">▼</a>
+        <div class="arrows">
+          <a class="arrow-up" href="#">▲</a>
+          <a class="arrow-down-current" href="#">▼</a>
+        </div>
       </div>
-      <section class="hotels">
-        <ul>
+      <section>
+        <ul class="hotels">
           <li>
             <h3 class="hotels-name"><a href="#">Amara Resort & SPA</a></h3>
             <span class="hotels-type">Гостиница</span>
             <span class="hotels-price">от 4000 р.</span>
-            <div class="hotels_rating">
-              <div class="hotels_stars">
-                <span class="star">★</span>
-                <span class="star">★</span>
-                <span class="star">★</span>
-                <span class="star">★</span>
-              </div>
-              <span class="hotels_rating">Рейтинг: 8,5</span>
+            <div class="hotels-stars">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
             </div>
+            <span class="hotels-rating">Рейтинг: 8,5</span>
             <p><img src="img/hotel-1.jpg" width="135" height="90" alt="Фотография Amara Resort & SPA"></p>
-            <a class="button" href="#">Подробнее</a>
-            <a class="button" href="#">Забронировать</a>
+            <a class="button-about" href="#">Подробнее</a>
+            <a class="button-booking" href="#">Забронировать</a>
           </li>
           <li>
             <h3 class="hotels-name"><a href="#">Desert Quail Inn</a></h3>
             <span class="hotels-type">Мотель</span>
             <span class="hotels-price">от 3000 р.</span>
-            <div class="hotels_stars">
+            <div class="hotels-stars">
               <span class="star">★</span>
               <span class="star">★</span>
               <span class="star">★</span>
             </div>
-            <span class="hotels_rating">Рейтинг: 8,9</span>
-          </div>
+            <span class="hotels-rating">Рейтинг: 8,9</span>
             <p><img src="img/hotel-2.jpg" width="135" height="90" alt="Фотография Desert Quail Inn"></p>
-            <a class="button" href="#">Подробнее</a>
-            <a class="button" href="#">Забронировать</a>
+            <a class="button-about" href="#">Подробнее</a>
+            <a class="button-booking" href="#">Забронировать</a>
           </li>
           <li>
             <h3 class="hotels-name"><a href="#">Villas Poco Diablo</a></h3>
             <span class="hotels-type">Апартаменты</span>
             <span class="hotels-price">от 2000 р.</span>
-            <div class="hotels_stars">
+            <div class="hotels-stars">
               <span class="star">★</span>
               <span class="star">★</span>
-            <span class="hotels_rating">Рейтинг: 9,2</span>
-          </div>
+            </div>
+            <span class="hotels-rating">Рейтинг: 9,2</span>
             <p><img src="img/hotel-3.jpg" width="135" height="90" alt="Фотография Villas Poco Diablo"></p>
-            <a class="button" href="#">Подробнее</a>
-            <a class="button" href="#">Забронировать</a>
+            <a class="button-about" href="#">Подробнее</a>
+            <a class="button-booking" href="#">Забронировать</a>
           </li>
         </ul>
       </section>
     </main>
 
     <footer>
-      <div>#VisitSedona</div>
-      <div class="footer-social">
-        <ul>
-          <li><a class="social-button" href="#">Twitter</a></li>
-          <li><a class="social-button" href="#">Facebook</a></li>
-          <li><a class="social-button" href="#">YouTube</a></li>
-        </ul>
-      </div>
+      <div class="hashtag">#VisitSedona</div>
+      <ul class="footer-social">
+        <li><a class="social-button" href="#">Twitter</a></li>
+        <li><a class="social-button" href="#">Facebook</a></li>
+        <li><a class="social-button" href="#">YouTube</a></li>
+      </ul>
       <div class="footer-copyright">
-        <b>website by</b>
+        website by
         <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
       </div>
     </footer>
