@@ -107,6 +107,12 @@ a {
   font-weight: bold;
 }
 
+.advantage-item__number:before,
+.advantage-item__number:after {
+  content: ' — ';
+  display: inline-block;
+}
+
 .advantage-item p {
   color: #333333;
 }
