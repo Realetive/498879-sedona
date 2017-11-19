@@ -1,5 +1,8 @@
 body {
-  margin: 0;
+  /* можно сразу задать ширину */
+  width: 1200px;
+  /* и центрирование */
+  margin: 0 auto;
   padding: 0;
 
   font-family: "PT Sans", "Arial", sans-serif;
