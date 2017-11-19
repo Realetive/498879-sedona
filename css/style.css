@@ -89,6 +89,14 @@ a {
   font-weight: bold;
 }
 
+/* создадим ссылку, которая внешне должна 
+   выглядеть как обычный текст, т. е. она
+   должна получить стили от «родителя» */
+.link_type_text {
+  color: inherit;
+  font: inherit;
+}
+
 .advantage-list p {
   color: #333333;
 }
