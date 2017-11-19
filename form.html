@@ -1,17 +1,30 @@
-<form action="#" method="post">
-  <p>
-    <label for="check-in">Дата заезда:</label>
-    <input type="text" id="check-in" name="check-in-date" placeholder="24 апреля 2017" required>
-  </p>
-  <p>
-    <label for="check-out">Дата выезда:</label>
-    <input type="text" id="check-out" name="check-out-date" placeholder="4 июля 2017" required>
-  </p>
-  <p>
-    <label for="adult">Взрослые:</label>
-    <input type="text" id="adult" name="adult" placeholder="2">
-    <label for="children">Дети:</label>
-    <input type="text" id="children" name="children" placeholder="0">
-  </p>
-  <button>Найти</button>
-</form>
+<!-- Всё же без базовых тегов может быть не совсем корректное отображение -->
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+  </head>
+  <body class="inner-page">
+    <form action="#" method="post">
+      <p>
+        <label for="check-in">Дата заезда:</label>
+        <input type="text" id="check-in" name="check-in-date" placeholder="24 апреля 2017" required>
+      </p>
+      <p>
+        <label for="check-out">Дата выезда:</label>
+        <input type="text" id="check-out" name="check-out-date" placeholder="4 июля 2017" required>
+      </p>
+      <p>
+        <label for="adult">Взрослые:</label>
+        <input type="text" id="adult" name="adult" placeholder="2">
+        <label for="children">Дети:</label>
+        <input type="text" id="children" name="children" placeholder="0">
+      </p>
+      <button>Найти</button>
+    </form>
+  </body>
+</html>
+
