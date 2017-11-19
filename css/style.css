@@ -83,14 +83,8 @@ a {
   background-color: #ffffff;
 }
 
-/* Объединим повторяющиеся стили */
-/* в одну группу */
-.advantages-title h2,
-.advantage-item-main h3,
-.advantage-list h4,
-.advantage-item h3,
-.hashtag,
-.results-sum {
+/* Дадим группе осмысленное название */
+.heading {
   font-size: 21px;
   font-weight: bold;
 }
