@@ -47,7 +47,8 @@ a {
 
 .bg-image {
   position: relative;
-  width: 1200px;
+  /* мы уже задали ширину у всей страницы в `body` */
+  width: 100%;
   height: 773px;
 
   background-color: #acc9dd;
